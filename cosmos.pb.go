@@ -15,7 +15,6 @@ import (
 	"strings"
 )
 
-
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
 var _ = fmt.Errorf
@@ -243,7 +242,7 @@ func init() {
 	proto.RegisterExtension(E_DeclareScalar)
 }
 
-func init() { proto.RegisterFile("cosmos_proto/cosmos.proto", fileDescriptor_706f3b7c96e3f128) }
+func init() { proto.RegisterFile("cosmos.proto", fileDescriptor_706f3b7c96e3f128) }
 
 var fileDescriptor_706f3b7c96e3f128 = []byte{
 	// 479 bytes of a gzipped FileDescriptorProto
